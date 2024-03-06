@@ -40,6 +40,25 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- repos -->
+    {% if page.repos %}
+      <h2>
+        <a href="{{ '/repositories/' | relative_url }}" style="color: inherit">Dona open-source code</a>
+      </h2>
+            {% for repo in site.data.repositories.github_repos %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+    {% endif %}
+
+        <!-- FAQ -->
+    {% if page.faq %}
+      <h2>
+        <a href="{{ '/faq/' | relative_url }}" style="color: inherit">FAQ</a>
+      </h2>
+      Maybe write some important faq questions here?
+    {% endif %}
+
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>

@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: Todo - We can put repositories and a description here!
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 
