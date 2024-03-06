@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mbp-lab.github.io/sitemap.xml
+Sitemap: https://mbp-lab.github.io/dona-blog/sitemap.xml
