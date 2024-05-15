@@ -1,14 +1,14 @@
 ---
 layout: page
-permalink: /more/
-title: More...
-description: how to..
+permalink: /updates/
+title: updates
+description: updates...
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  How can it be done?
+  UPDATES
 </div>
