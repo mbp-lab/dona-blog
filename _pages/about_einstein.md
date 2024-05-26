@@ -1,1 +1,0 @@
-Persons involved could be here
