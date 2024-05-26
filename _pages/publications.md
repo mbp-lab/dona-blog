@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications&repos/
 title: publications & repositories
-description: toDo description here
+description:
 nav: true
 nav_order: 2
 ---
